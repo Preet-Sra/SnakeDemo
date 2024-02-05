@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829cd0c7e308b9e4bbc15d8ef8a635c8, type: 3}
+  m_Name: SnakeData
+  m_EditorClassIdentifier: 
+  snakeAttributes:
+  - snakeIcon: {fileID: 1805574689, guid: 36ae84d2026336f48bb915f785ed2047, type: 3}
+    snakeSpeed: 10
+    snakeStartSize: 3
+    snakeColor: {r: 0, g: 1, b: 0.75427365, a: 1}
+  - snakeIcon: {fileID: 153675004, guid: 36ae84d2026336f48bb915f785ed2047, type: 3}
+    snakeSpeed: 15
+    snakeStartSize: 5
+    snakeColor: {r: 0.26198173, g: 1, b: 0, a: 0}
+  - snakeIcon: {fileID: -1031244639, guid: 36ae84d2026336f48bb915f785ed2047, type: 3}
+    snakeSpeed: 20
+    snakeStartSize: 8
+    snakeColor: {r: 1, g: 0, b: 0, a: 0}
